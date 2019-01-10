@@ -1,0 +1,42 @@
+{
+  "types": [
+    {
+      "id": "mod",
+      "title": "Mod",
+      "title_p": "Mods"
+    },
+    {
+      "id": "modpack",
+      "title": "Modpack",
+      "title_p": "Modpacks"
+    },
+    {
+      "id": "other",
+      "title": "Other",
+      "title_p": "Other"
+    }
+  ],
+  "default_properties": {
+    "background": "ftbguides:textures/background.png",
+    "background_url": "https://raw.githubusercontent.com/LatvianModder/FTBGuides/master/src/main/resources/assets/ftbguides/textures/background.png",
+    "text_color": "#7B6534",
+    "text_color_mouse_over": "#D5A71A",
+    "line_color": "#C6B285"
+  },
+  "iconrepos": {
+    "ftblib": "https://raw.githubusercontent.com/LatvianModder/FTBLib/master/src/main/resources/assets/ftblib",
+    "ftbguides": "https://raw.githubusercontent.com/LatvianModder/FTBGuides/master/src/main/resources/assets/ftbguides"
+  },
+  "items": [],
+  "guides": [
+    {
+      "id": "becomingrich",
+      "title": "Becoming Rich in the comfort of your own home",
+      "type": "modpack",
+      "icon": "",
+      "authors": [
+	      "Kayila"
+      ]
+    }
+  ]
+}

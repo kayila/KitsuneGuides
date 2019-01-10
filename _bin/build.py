@@ -5,11 +5,11 @@ from pathlib import Path
 import sys
 
 def load_json_file(path):
-    with open(path) as fp:
+    with open(str(path)) as fp:
         return json.load(fp)
 
 def dump_json_file(path, obj):
-    with open(path, 'w') as fp:
+    with open(str(path), 'w') as fp:
         return fp.write(json.dumps(obj, indent="  "))
 
 root_dir = Path(__file__).resolve().parent.parent

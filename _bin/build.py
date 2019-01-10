@@ -20,4 +20,6 @@ api_json = json.dumps(api, indent="  ")
 if "--stdout" in sys.argv:
     print(api_json)
 else:
-    Path("api/api.json").write_text(api_json)
+    root_dir = Path(__file__).resolve().parent.parent
+    output_file = Path(root_dir, "api", "api.json")
+    output_file.write_text(api_json)

@@ -1,0 +1,11 @@
+{
+  "id": "becomingrich",
+  "title": "Becoming Rich in the comfort of your own home",
+  "type": "modpack",
+  "icon": "item:minecraft:golden_apple",
+  "authors": [
+          "Kayila"
+  ],
+  "format": "json",
+  "original_text_url": "https://kayila.github.io/KitsuneGuides/becomingrich/index.json"
+}

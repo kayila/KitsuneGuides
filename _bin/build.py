@@ -32,7 +32,9 @@ def generate_api_json(root_dir, dest_dir):
     api['guides'] = [load_json_file(f) for f in guide_files]
 
     # Create _site/api/
-    Path(dest_dir, 'api').mkdir(exist_ok=True)
+    api_dir = Path(dest_dir, 'api')
+    if not api_dir.is_dir():
+        Path(dest_dir, 'api').mkdir()
 
     # Create _site/api/api.json
     api_json_file = Path(dest_dir, 'api', 'api.json')

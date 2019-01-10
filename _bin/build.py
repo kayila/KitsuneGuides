@@ -28,7 +28,7 @@ def generate_api_json(root_dir, dest_dir):
     api = load_json_file(Path(root_dir, '_templates', 'api.json.template'))
 
     # Populate guide list from */data.json.
-    guide_files = Path('.').glob('**/data.json')
+    guide_files = Path(dest_dir).glob('**/data.json')
     api['guides'] = [load_json_file(f) for f in guide_files]
 
     # Create _site/api/
@@ -49,8 +49,10 @@ def copy_source_files(root_dir, dest_dir):
     Path(dest_dir).mkdir()
 
     sources = root_dir.glob('*')
-    sources = map(lambda x: x.relative_to(root_dir), sources)
-    sources = filter(lambda x: str(x)[0] != '.' and str(x)[0] != '_', sources)
+    sources = map(lambda x: str(x.relative_to(root_dir)), sources)
+    sources = filter(lambda x: x[0] != '.' and x[0] != '_', sources)
+    sources = filter(lambda x: x != 'netlify.toml', sources)
+    sources = list(sources)
 
     for source in sources:
         source = str(source)

@@ -14,6 +14,12 @@
       "title": "Astral Sorcery",
       "icon": "item:astralsorcery:itemcraftingcomponent:4",
       "original_text_url": "https://kitsune-guides.netlify.com/becomingrich/astralsorcery.json"
+    },
+    {
+      "id": "botania",
+      "title": "Botania",
+      "icon": "item:botania:lexicon",
+      "original_text_url": "https://kitsune-guides.netlify.com/becomingrich/botania.json"
     }
   ]
 }

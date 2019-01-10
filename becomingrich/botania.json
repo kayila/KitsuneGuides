@@ -1,0 +1,17 @@
+[
+  {"h1": "Botania"},
+  "",
+  "Botania provides a few different methods of generating ore, depending on which type of ore you are looking to gather. There are two primary flowers which are used, the Orechid, and the Orechid Ignem",
+  "",
+  {"h2": "Orechid"},
+  "",
+  {"img": "images/orechid.png"},
+  "",
+  "The Orchid is a mystical flower from Botania which, for the cost of mana, converts smooth stone into ore. It consumes a lot of mana, but can be automated. The instructions for how to build this flower are in the Lexica Botania, however they will not appear until after you have thrown your book through the portal to Alfheim. Doing this increases the amount material in the Lexica Botania, and provides you with the recipe to build the flower. This flower has a bias towards creating more common types of ore. It's area of effect extends out 5 blocks from the flower along horizontal axes, and three blocks beyond the flower vertically (in both directions). The orechid can be disabled by providing it with a redstone signal. This flower can be turned into a floating varient which allows it to be placed in the world without having dirt underneath it, which gives you one more block you can convert. This flower can be sped up by torcherinos, but torcherinos do increase the strain on the server if too many people are using them, so please only do this if you must.",
+  "",
+  {"bold": true, "text": "Be advised, this flower is very loud when it is working."},
+  "",
+  {"h2": "Orechid Ignem"},
+  "",
+  "Like the previous flower, the Orechid Ignem can be used to create ores. The aspect where it differs is that it creates nether ores instead of other types, and it creates them in Netherrack instead of smoothstone. In order for this flower to work, it must be in the nether."
+]

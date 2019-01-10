@@ -25,7 +25,8 @@
   },
   "iconrepos": {
     "ftblib": "https://raw.githubusercontent.com/LatvianModder/FTBLib/master/src/main/resources/assets/ftblib",
-    "ftbguides": "https://raw.githubusercontent.com/LatvianModder/FTBGuides/master/src/main/resources/assets/ftbguides"
+    "ftbguides": "https://raw.githubusercontent.com/LatvianModder/FTBGuides/master/src/main/resources/assets/ftbguides",
+    "kguide": "https://kitsune-guides.netlify.com"
   },
   "items": [],
   "guides": [

@@ -1,0 +1,8 @@
+[build]
+  # Source directory.
+  base = "."
+  # Destination directory.
+  publish = "_site/"
+
+  # Default build command.
+  command = "./_bin/build.py"

@@ -7,13 +7,13 @@
           "Kayila"
   ],
   "format": "json",
-  "original_text_url": "https://kayila.github.io/KitsuneGuides/becomingrich/index.json",
+  "original_text_url": "https://kitsune-guides.netlify.com/becomingrich/index.json",
   "pages": [
     {
       "id": "astralsorcery",
       "title": "Astral Sorcery",
       "icon": "item:astralsorcery:itemcraftingcomponent:4",
-      "original_text_url": "https://kayila.github.io/KitsuneGuides/becomingrich/astralsorcery.json"
+      "original_text_url": "https://kitsune-guides.netlify.com/becomingrich/astralsorcery.json"
     }
   ]
 }

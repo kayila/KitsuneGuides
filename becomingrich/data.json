@@ -12,7 +12,7 @@
     {
       "id": "astralsorcery",
       "title": "Astral Sorcery",
-      "icon": "item:astralsorcery:itemcraftingcomponent:4",
+      "icon": "item:astralsorcery:itemjournal",
       "original_text_url": "https://kitsune-guides.netlify.com/becomingrich/astralsorcery.json"
     },
     {
@@ -24,7 +24,7 @@
     {
       "id": "bloodmagic",
       "title": "Blood Magic",
-      "icon": "item:bloodmagic:blood_orb",
+      "icon": "item:bloodmagic:altar",
       "original_text_url": "https://kitsune-guides.netlify.com/becomingrich/bloodmagic.json"
     }
   ]

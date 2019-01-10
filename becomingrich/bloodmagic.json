@@ -1,0 +1,21 @@
+[
+  {"h1": "Blood Magic"},
+  "Blood magic can be used to create large amounts of ore in a short period of time using the ritual \"Mark of the Falling Tower.\" This ritual calls a meteor of ore down from the sky to impact on the first block that it comes into contact with. For this purpose, make sure that you are prepared! A ritual created without first ensuring that there was enough space for the meteor can have disasterous effects to your base. The ritual is activated with an activation crystal, consumes LP from the activator's LP pool, and requires a sacrificial object to be tossed on top of the master ritual stone. These items are shown below.",
+  "",
+  {"img": "item:minecraft:iron_block"},
+  {"img": "item:minecraft:gold_block"},
+  {"img": "item:minecraft:diamond_block"},
+  "",
+  "I recommend placing a block of obsidian somewhere above your base for the meteor to impact.",
+  "",
+  "The ritual, once fully set up, will look something like this.",
+  {"img": "images/bloodmagic_setup.png"},
+  "",
+  "Ensure that you properly prepare for this ritual with the block some distance directly above your ritual, or you may find yourself finding a new home",
+  "",
+  {"img": "images/bloodmagic_notprepared.png"},
+  "",
+  "A properly prepared ritual, however, leaves nothing to fear.",
+  "",
+  {"img": "images/bloodmagic_prepared.png"}
+]

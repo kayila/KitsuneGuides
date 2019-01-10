@@ -20,6 +20,12 @@
       "title": "Botania",
       "icon": "item:botania:lexicon",
       "original_text_url": "https://kitsune-guides.netlify.com/becomingrich/botania.json"
+    },
+    {
+      "id": "bloodmagic",
+      "title": "Blood Magic",
+      "icon": "item:bloodmagic:blood_orb",
+      "original_text_url": "https://kitsune-guides.netlify.com/becomingrich/bloodmagic.json"
     }
   ]
 }

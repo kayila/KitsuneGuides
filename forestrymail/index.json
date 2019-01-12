@@ -1,0 +1,13 @@
+[
+	{"h1": "Sending mail using Forestry"},
+	"",
+	"Using Forestry, you can send letters and items to your friends and fellow minecraftians! No longer need you sequesture yourself to the bowels of the Earth, only communicating using the primitive system known as 'chat,' now you can let people know how you truely feel, and even ask them to send items to help you get out of this hole you've dug yourself into!",
+	"",
+	"Sending mail with Forestry is actually pretty simple. All you need to do is, craft a 'Letter' item, right click to open it, address it to the player you wish to communicate with, write your message and place in any items you wish to send, apply the appropiate postage, and then right click the letter onto a mailbox.",
+	"",
+	"Postage can be added to letters by using 'Stamps' These stamps have certian values, measured in 'n' which they are worth. Postage for letters is always 1n for the letter itself and an additional 1n for each stack which you are trying to mail.",
+	"",
+	"You can always obtain your mail at any time by finding your nearest mailbox, and opening it, pulling your mail out from inside.",
+	"",
+	"Forestry can also be used to provide ongoing trades in which you can specify what you would like to recieve, and what you are willing to give back in return for the item(s). This will be discussed further in future updates of this guide."
+]

@@ -1,0 +1,15 @@
+{
+  "id": "forestrymail",
+  "title": "Sending mail with Forestry",
+  "type": "mod",
+  "modid": "forestry",
+  "icon": "item:forestry:mailbox",
+  "authors": [
+          "Mezz",
+	  "Kayila"
+  ],
+  "format": "json",
+  "original_text_url": "https://kitsune-guides.netlify.com/forestrymail/index.json",
+  "pages": [
+  ]
+}

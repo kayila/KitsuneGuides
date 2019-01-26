@@ -1,0 +1,19 @@
+[
+  {"h1": "Getting A Car"},
+  "",
+  "There are two ways to get a vehicle: buy it, or build it.",
+  "",
+  "Building one requires a wide array of materials. We cover the cost of getting them by requesting additional iron.",
+  "",
+  "If you would like to build it, there is a Car Workshop provided by the Aura fuel station.",
+  "Technical details related to building a vehicle are provided later in this book.",
+  "",
+  "If you would like to buy a vehicle, the prices are:",
+  "",
+  "- One-seat sedan:  9 iron blocks.",
+  "- Two-seat sedan: 10 iron blocks.",
+  "- One-seat truck: 11 iron blocks.",
+  "- One-seat sport: 12 iron blocks.",
+  "",
+  "Discounts may be available if other items are provided. Be sure to talk to puppy (aka duckinator)."
+]

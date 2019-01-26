@@ -1,0 +1,43 @@
+{
+  "id": "canidmotors",
+  "title": "Canid Motors: Getting & Owning A Car",
+  "type": "modpack",
+  "icon": "item:car:key",
+  "authors": [
+    "duckinator"
+  ],
+  "format": "json",
+  "original_text_url": "https://kitsune-guides.netlify.com/canidmotors/index.json",
+  "pages": [
+    {
+      "id": "getting-a-car",
+      "title": "Getting A Car",
+      "icon": "item:car:key",
+      "original_text_url": "https://kitsune-guides.netlify.com/canidmotors/getting-a-car.json"
+    },
+    {
+      "id": "fuel",
+      "title": "Getting Fuel",
+      "icon": "item:car:fuelstation",
+      "original_text_url": "https://kitsune-guides.netlify.com/canidmotors/fuel.json"
+    },
+    {
+      "id": "auto-repair",
+      "title": "Auto Repair & Maintenance",
+      "icon": "item:car:wrench",
+      "original_text_url": "https://kitsune-guides.netlify.com/canidmotors/auto-repair.json"
+    },
+    {
+      "id": "road-work",
+      "title": "Road Construction & Maintenance",
+      "icon": "item:car:tar_slope",
+      "original_text_url": "https://kitsune-guides.netlify.com/canidmotors/road-work.json"
+    },
+    {
+      "id": "build-a-car",
+      "title": "Building A Car",
+      "icon": "item:car:car_workshop",
+      "original_text_url": "https://kitsune-guides.netlify.com/canidmotors/build-a-car.json"
+    }
+  ]
+}

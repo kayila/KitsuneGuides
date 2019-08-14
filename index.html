@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Kitsune Guides</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ID=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+html {
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica, Arial, sans-serif;
+}
+*, *:before, *:after { box-sizing: inherit; }
+
+body {
+  font-size: 100%;
+  line-height: 1.5em;
+  color: #24292e;
+  background-color: #eee;
+}
+
+header, main {
+  max-width: 75ch;
+  margin: auto;
+}
+main { padding-bottom: 3em; }
+    </style>
+
+    <!-- fetch() polyfill for old browsers. -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/3.0.0/fetch.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.7.0/umd/react.development.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.7.0/umd/react-dom.development.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>KitsuneCraft Guides</h1>
+      <p><a href="/">Home</a></p>
+    </header>
+
+    <main></main>
+
+<script>
+'use strict';
+
+const e = React.createElement;
+
+function GuideList(props) {
+  return e('section', {className: "guide-list"},
+    e('ul', null,
+      props['guides'].map(guide =>
+        e('li', {key: guide['id']},
+          e('a', {href: '#', onClick: (e) => loadGuide(guide)},
+            guide['title'])))));
+}
+
+function Guide(props) {
+  return e('section', null, [e('h2', null, props['title']),
+    props.map(item => {
+      if (typeof(item) == "string") {
+        return e('p', null, item);
+      } else {
+        return e(Object.keys(item)[0], null, Object.values(item)[0]);
+      }
+    })
+  ]);
+}
+
+function render(el) {
+  console.log(el);
+  ReactDOM.render(el, document.querySelector('main'));
+}
+
+function loadGuideList() {
+  fetch('/api/api.json')
+    .then(data => data.json())
+    .then(props => render(GuideList(props)));
+}
+
+function loadGuide(guide) {
+  var url = guide['original_text_url'].replace('https://kitsune-guides.netlify.com', location.origin);
+  console.log(url);
+
+  fetch(url)
+    .then(data => data.json())
+    .catch(error => console.log(error))
+    .then(props => render(Guide(props)))
+    .catch(error => console.log(error));
+}
+
+loadGuideList();
+</script>
+  </body>
+</html>
